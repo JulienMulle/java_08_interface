@@ -4,7 +4,7 @@ public interface Fly {
     public void land();
 
     public default void glide(){
-        System.out.println("glide in the air");
+        System.out.println("il vole difficilement");
     };
 
     public int ascend(int meters);
